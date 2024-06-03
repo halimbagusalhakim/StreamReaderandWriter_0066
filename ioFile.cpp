@@ -38,9 +38,14 @@ int main() {
         
         //melakukan perulaangan setiap baris
         while (getline(infile, baris)){
-            
+
             //dan tampilkan disini
             cout << baris << '\n';
         }
+        //tutup file tersebut setelah selesai
+        infile.close();
     }
+    //jika tidak ditemuukan file maka akan menampilkan ini
+    else cout << "Unable to open file";
+    return 0;
 }
