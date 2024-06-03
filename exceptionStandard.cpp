@@ -14,5 +14,12 @@ int main() {
         cout <<data.at(5) << endl;
 
     }
+    catch (exception& e) {
+        //penangkap menggunakan obyek exception
+        cout << e.what() << endl;
+        /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
+    }
+    cout << "Baris program yang terakhir" << endl;
+    /*Penanda 2: Bahwa Program berjalan tanpa berhenti*/
     
 }
