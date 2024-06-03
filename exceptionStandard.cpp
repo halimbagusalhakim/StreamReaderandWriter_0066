@@ -20,6 +20,6 @@ int main() {
         /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
     }
     cout << "Baris program yang terakhir" << endl;
-    /*Penanda 2: Bahwa Program berjalan tanpa berhenti*/
-    
+    /*Penanda 2: Bahwa Program berjalan tanpa berhenti meskipun terjadi kesalahan*/
+    return 0;
 }
